@@ -1,0 +1,16 @@
+Para compilar estas librerias es necesario tener instalado el sdk de flex.
+
+Flex sdk 4 => http://download.macromedia.com/pub/flex/sdk/flex_sdk_4.zip
+
+Extraemos el contenido en una carpeta por ejemplo :
+
+C:\flex_sdk
+
+Añadimos la carpeta bin a la variable de entorno PATH :
+
+path = %PATH%;C:\flex_sdk\bin
+
+Llamamos el compilador con las siguientes variables :
+
+mxmlc – o “C:\ruta\archivo\destino.swf” – sp “C:\carpeta\codigo\fuente\src” — “C:\carpeta\codigo\fuente\src\Main.as”
+
