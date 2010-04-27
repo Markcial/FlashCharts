@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="es-ES">
+  <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/jquery.swfobject.js"></script>
+  	<script type="text/javascript">
+  	/*<![CDATA[*/
+  	$(document).ready(function(){
+  		$('#flash').flash({
+  			swf : "Main.swf",
+  			width:"980",
+  			height:"580",
+  			flashvars:{
+  				dataSource : "xml/datasource.xml"
+  			}
+  		});
+  	})
+  	/*]]>*/
+  	</script>
+  	<style type="text/css">
+  	/*<![CDATA[*/
+  	html,body{margin:0px;padding:0px;width:100%;height:100%;}
+  	#flash{width:100%;height:100%;}
+  	/*]]>*/
+  	</style>
+  	<title>FlashCharts</title>
+  </head>
+  <body>
+    <div id="flash"></div>
+  </body>
+</html>
